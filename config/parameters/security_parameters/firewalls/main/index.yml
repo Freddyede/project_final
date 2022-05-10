@@ -1,0 +1,6 @@
+parameters:
+  # TODO : Security main
+  security.firewalls.main.anonymous: lazy
+  security.firewalls.main.provider: app_user_provider
+  # TODO : Security firewall main logout path
+  security.firewalls.main.logout.path: app_logout

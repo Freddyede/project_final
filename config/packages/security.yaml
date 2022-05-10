@@ -1,0 +1,38 @@
+imports:
+    - { resource: '../parameters/security_parameters/index.yml' }
+security:
+    encoders:
+        App\Entity\User:
+            algorithm: '%security.algorithm%'
+
+    # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+    providers:
+        # used to reload user from session & other features (e.g. switch_user)
+        app_user_provider:
+            entity:
+                class: '%security.providers.class%'
+                property: '%security.providers.class.property%'
+    firewalls:
+        dev:
+            pattern: '%security.firewalls.dev.pattern%'
+            security: '%security.firewalls.dev.security%'
+        main:
+            anonymous: '%security.firewalls.main.anonymous%'
+            provider: '%security.firewalls.main.provider%'
+            guard:
+                authenticators:
+                    - '%security.firewalls.main.guard.authenticators%'
+            logout:
+                path: '%security.firewalls.main.logout.path%'
+                # where to redirect after logout
+                # target: app_any_route
+
+            # activate different ways to authenticate
+            # https://symfony.com/doc/current/security.html#firewalls-authentication
+
+            # https://symfony.com/doc/current/security/impersonating_user.html
+            # switch_user: true
+
+    # Easy way to control access for large sections of your site
+    # Note: Only the *first* access control that matches will be used
+    access_control: '%security.access_control%'

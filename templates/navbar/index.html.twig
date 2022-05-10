@@ -1,0 +1,8 @@
+{% set roles = app.user.roles["roles"] %}
+{% if roles is null %}
+    {% include 'component/LOGINREGISTER/index.html.twig' %}
+{% elseif roles is same as('ROLE_ADMIN') %}
+    {% include 'component/ADMIN/index.html.twig' %}
+{% elseif roles is same as('ROLE_USER') %}
+    {% include 'component/PROFILE/index.html.twig' %}
+{% endif %}

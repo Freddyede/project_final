@@ -1,0 +1,5 @@
+parameters:
+  # TODO : services
+  services:
+    autowire: true
+    autoconfigure: true

@@ -1,0 +1,4 @@
+parameters:
+  # TODO : Security dev
+  security.firewalls.dev.pattern: ^/(_(profiler|wdt)|css|images|js)/
+  security.firewalls.dev.security: false

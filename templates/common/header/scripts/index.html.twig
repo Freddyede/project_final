@@ -1,0 +1,5 @@
+ {% if app.user.roles["roles"] is not same as(NULL) %}
+    {% include 'common/scripts/mainScript/Back/index.html.twig' %}
+{% else %}
+    {% include 'common/scripts/mainScript/Front/index.html.twig' %}
+{% endif %}

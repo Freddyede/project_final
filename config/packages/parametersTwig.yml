@@ -1,0 +1,18 @@
+twig:
+  globals:
+    # URL
+    loginUrl: '%login.url%'
+    loginName: '%login.name%'
+    adminUrl: '%admin.url%'
+    adminName: '%admin.name%'
+    profileUrl: '%profile.url%'
+    profileName: '%profile.name%'
+    logoutUrl: '%logout.url%'
+    logoutName: '%logout.name%'
+    registerUrl: '%register.url%'
+    registerName: '%register.name%'
+    chartsUrl: '%charts.url%'
+    chartsName: '%charts.name%'
+    # Language
+    pieChartsUrl: '%piecharts.url%'
+    pieChartsName: '%piecharts.name%'

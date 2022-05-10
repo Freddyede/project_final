@@ -1,0 +1,21 @@
+@import "../variables/pixels";
+@import "../variables/dividend";
+
+.dividend(@param1:@18p, @param2: @dividendOneDotFive){
+  font: @param1 / @param2 sans-serif;
+}
+
+.body(@vMargin:@zero, @vPadding:@zero) {
+  margin: @vMargin;
+  padding: @vPadding;
+}
+.example-wrapper() {
+  margin: 1em auto;
+  max-width: @800p;
+  width: 95%;
+  .dividend();
+}
+.code() {
+  background: #F5F5F5;
+  padding: @2p @6p;
+}

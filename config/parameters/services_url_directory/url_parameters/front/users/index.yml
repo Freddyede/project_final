@@ -1,0 +1,4 @@
+parameters:
+  # TODO : USERS
+  profile.url: "https://localhost:8000/profile"
+  profile.name: "Profile"

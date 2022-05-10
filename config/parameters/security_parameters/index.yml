@@ -1,0 +1,8 @@
+imports:
+  - { resource: 'encoder/index.yml' }
+  - { resource: 'access_control/index.yml' }
+  - { resource: 'authenticator/index.yml' }
+  - { resource: 'encoder/index.yml' }
+  - { resource: 'firewalls/dev/index.yml' }
+  - { resource: 'firewalls/main/index.yml' }
+  - { resource: 'provider/index.yml' }

@@ -1,0 +1,8 @@
+parameters:
+  # TODO : FRONT
+  login.url: "https://localhost:8000/login"
+  login.name: "Login"
+  logout.url: "https://localhost:8000/logout"
+  logout.name: "Déconnexion"
+  register.url: "https://localhost:8000/register"
+  register.name: "Enregistrement"

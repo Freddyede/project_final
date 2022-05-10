@@ -1,0 +1,3 @@
+parameters:
+  # TODO : Security encoders algorithm
+  security.algorithm: auto

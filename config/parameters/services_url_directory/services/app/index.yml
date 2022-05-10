@@ -1,0 +1,7 @@
+parameters:
+  app_services.src_resource: '../src/'
+  app_services.controller_resource: '../src/Controller/'
+  app_services.controller_tags: 'controller.service_arguments'
+  app_services.exclude.d_i: '../src/DependencyInjection/'
+  app_services.exclude.entity: '../src/Entity/'
+  app_services.exclude.kernel: '../src/Kernel.php'

@@ -1,0 +1,8 @@
+imports:
+  # TODO : URL
+  - { resource: 'url_parameters/front/anonymous/index.yml' }
+  - { resource: 'url_parameters/front/users/index.yml' }
+  - { resource: 'url_parameters/back/index.yml' }
+  # TODO : SERVICES
+  - { resource: 'services/defaults/index.yml' }
+  - { resource: 'services/app/index.yml' }

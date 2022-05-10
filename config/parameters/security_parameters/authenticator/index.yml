@@ -1,0 +1,3 @@
+parameters:
+  # TODO : Security firewall main guard authenticator
+  security.firewalls.main.guard.authenticators: App\Security\UserAuthenticator

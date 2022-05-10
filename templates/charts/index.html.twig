@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ChartsController!{% endblock %}
+
+{% block body %}
+    <div class="col-1" style="border: 1px solid red;"></div>
+    <div class="col-10 d-flex-column justify-content-center align-items-center mx-auto" style="height: 94vh; border:1px solid black;">
+        <div class="d-flex justify-content-center align-items-center mx-auto" style="width: 100%;height: 47vh;">
+            <a href="{{ path('charts_pie') }}" class="col-1 h-50 mx-auto" style="border: 1px solid black"><img src="https://miro.medium.com/max/629/1*rzNBRBt1RCr4NsN4Lb7V1Q.png" alt="charts" class="img-fluid" /></a>
+            <a class="col-1 h-50 mx-auto" style="border: 1px solid black"></a>
+            <a class="col-1 h-50 mx-auto" style="border: 1px solid black"></a>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mx-auto" style="width: 100%;height: 47vh;">
+            <div class="col-1 h-50 mx-auto" style="border: 1px solid black"></div>
+            <div class="col-1 h-50 mx-auto" style="border: 1px solid black"></div>
+            <div class="col-1 h-50 mx-auto" style="border: 1px solid black"></div>
+        </div>
+    </div>
+    <div class="col-1" style="border: 1px solid red;"></div>
+{% endblock %}

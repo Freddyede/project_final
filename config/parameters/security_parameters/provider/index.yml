@@ -1,0 +1,4 @@
+parameters:
+  # TODO : Security providers
+  security.providers.class: App\Entity\User
+  security.providers.class.property: email
