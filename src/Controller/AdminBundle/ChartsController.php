@@ -6,7 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-/**
+/** INFORMATIONS :
+ *      - Cette classe contiendra tous les éléments lié à la page Graphiques du site.
  * @Route("/admin")
  */
 class ChartsController extends AbstractController
