@@ -1,3 +1,6 @@
 $(document).ready(()=> {
-    $('#alert_my_text').on('click', alertFunction);
+    const onClick = (element, functions) => {
+      $(element).on('click', functions);
+    };
+    onClick('#alert_my_text', alertFunction);
 });
