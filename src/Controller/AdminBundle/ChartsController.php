@@ -30,4 +30,13 @@ class ChartsController extends AbstractController
             'controller_name' => 'Dashboard - Charts/Pie',
         ]);
     }
+    /**
+     * @Route("/charts/bar", name="bar_charts")
+     */
+    public function barChart(): Response
+    {
+        return $this->render('charts/bar.html.twig', [
+            'controller_name' => 'Dashboard - Charts/Bar',
+        ]);
+    }
 }
