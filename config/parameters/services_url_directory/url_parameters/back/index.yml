@@ -10,3 +10,7 @@ parameters:
   # TODO : Back charts pie
   piecharts.url: "https://localhost:8000/admin/charts/pie"
   piecharts.name: "Pie charts"
+
+  # TODO : Back charts bar
+  barcharts.url: "https://localhost:8000/admin/charts/bar"
+  barcharts.name: "Bar charts"
