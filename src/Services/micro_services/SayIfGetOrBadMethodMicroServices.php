@@ -50,8 +50,8 @@ class SayIfGetOrBadMethodMicroServices {
                     $response->setStatusCode(Response::HTTP_METHOD_NOT_ALLOWED);
                     $message = 'Bad Request';
                 }
-                return $response->setData(['status'=>$response->getStatusCode(), $message]);
         }
+        $response->setData(['status'=>$response->getStatusCode(), $message]);
         return $response;
     }
     public function sayIfBadHeaderOfRequest(Request $request, JsonResponse $response, $datas){

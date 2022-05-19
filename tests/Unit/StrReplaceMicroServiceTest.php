@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests;
+namespace App\Tests\Unit;
 
 use App\Services\micro_services\StrReplaceMicroServices;
 use PHPUnit\Framework\TestCase;
